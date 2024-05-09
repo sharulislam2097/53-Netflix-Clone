@@ -73,19 +73,17 @@ nav button{
     margin-top: 30px;
 
 }
-.hero-email{
-    position: relative;
-    z-index: 11;
-}
+
 .hero-email input{
-    z-index: 15;
-    height: 24px;
+    
+    height: 26px;
     width: 336px;
-    padding: 24px 16px 8px 16px;
+    padding: 18px 13px 8px 13px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid red;
     margin-top: 30px;
+    background-color: rgba(97, 94, 94, 0.23);
     
 
 }
@@ -95,11 +93,12 @@ nav button{
     background-color: red;
     font-size: 24px;
     border-radius: 7px;
-    /* text-align: center; */
+    
     font-weight: 500;
     color: #ffffff;
     padding: 12px 24px 12px 24px;
     min-width: auto;
+    
 }
 
 .line{
@@ -111,6 +110,17 @@ nav button{
     height: 32px;
     width: 76px;
     background-color: #e50914;
+    border: 0pc solid white;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.langbtn{
+    height: 32px;
+    width: 76px;
+    background-color:rgba(202, 197, 197, 0.575);
     border: 0pc solid white;
     border-radius: 4px;
     color: #ffffff;
