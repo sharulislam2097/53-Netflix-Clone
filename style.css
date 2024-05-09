@@ -164,3 +164,11 @@ nav button {
   right: 83px;
   top: 95px;
 }
+.second{
+    height: 70vh;
+}
+
+.second img{
+    width: 580px;
+    height: 435px;
+}
