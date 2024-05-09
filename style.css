@@ -1,32 +1,120 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{  font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 0px;
 }
 .main{
+    
     background-image: url("assets/images/bg.jpg");
+    
+   
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px , 100vw);
     height: 583.5px;
     position: relative;
 }
-.main .box{
-    height: 583.5px;
-    width: 100%;
-    opacity:0.44;
-    background-color: black;
-    position: absolute;
-    top: 0;
-}
+
 .nav-logo{
+    margin-top: 20px;
     height: 40px;
     width: 148px;
+    position: relative;
+    z-index: 3;
    
 }
 nav{
-    width: 80vw;
+    
+    width: 65vw;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+nav button{
+    position: relative;
+    z-index: 3;
+}
+.herotext{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+}
+.herotext h1{
+    position: relative;
+    z-index: 10;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    background-position: 0% 0%;
+    
+}
+.herotext p{
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+    height: 30px;
+    margin-top: 30px;
+
+}
+.herotext h3{
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+    font-size: 20px;
+   
+    margin-top: 30px;
+
+}
+.hero-email{
+    position: relative;
+    z-index: 11;
+}
+.hero-email input{
+    z-index: 15;
+    height: 24px;
+    width: 336px;
+    padding: 24px 16px 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-top: 30px;
+    
+
+}
+.hero-email button{
+
+    width: 209px;
+    background-color: red;
+    font-size: 24px;
+    border-radius: 7px;
+    /* text-align: center; */
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 24px 12px 24px;
+    min-width: auto;
+}
+
+.line{
+    height: 7px;
+    background-color: rgb(75, 74, 74);
+}
+
+.navbtn{
+    height: 32px;
+    width: 76px;
+    background-color: #e50914;
+    border: 0pc solid white;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
