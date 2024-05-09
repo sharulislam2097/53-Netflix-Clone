@@ -1,192 +1,195 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 * {
-  font-family: "Open Sans", sans-serif;
-  margin: 0px;
-  padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-  background-color: black;
+    background-color: black;
 }
 
 .main {
-  background-image: url("assets/images/bg.jpg");
+    background-image: url("assets/images/bg.jpg");
 
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: max(1200px, 100vw);
-  height: 583.5px;
-  position: relative;
-  z-index: 50;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 583.5px;
+    position: relative;
+    z-index: 50;
 }
 
 .nav-logo {
-  margin-top: 20px;
-  height: 40px;
-  width: 148px;
-  position: relative;
-  z-index: 3;
+    margin-top: 20px;
+    height: 40px;
+    width: 148px;
+    position: relative;
+    z-index: 3;
 }
 
 nav {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav button {
-  position: relative;
-  z-index: 3;
+    position: relative;
+    z-index: 3;
 }
 
 .herotext {
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 23px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
 }
 
 .herotext h1 {
-  position: relative;
-  z-index: 10;
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: 900;
-  text-align: center;
-  background-position: 0% 0%;
+    position: relative;
+    z-index: 10;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    background-position: 0% 0%;
 }
 
 .herotext p {
-  font-size: 24px;
-  text-align: center;
-  color: #ffffff;
-  z-index: 10;
-  height: 30px;
-  margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+    height: 30px;
+    margin-top: 30px;
 }
 
 .herotext h3 {
-  text-align: center;
-  color: #ffffff;
-  z-index: 10;
-  font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+    font-size: 20px;
 
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .hero-email input {
-  height: 26px;
-  width: 336px;
-  padding: 18px 13px 8px 13px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: 1px solid red;
-  margin-top: 30px;
-  background-color: rgba(97, 94, 94, 0.23);
+    height: 26px;
+    width: 336px;
+    padding: 18px 13px 8px 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-top: 30px;
+    background-color: rgba(97, 94, 94, 0.23);
 }
 
 .hero-email button {
-  width: 209px;
-  background-color: red;
-  font-size: 24px;
-  border-radius: 7px;
+    width: 209px;
+    background-color: red;
+    font-size: 24px;
+    border-radius: 7px;
 
-  font-weight: 500;
-  color: #ffffff;
-  padding: 12px 24px 12px 24px;
-  min-width: auto;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 24px 12px 24px;
+    min-width: auto;
 }
 
 .line {
-  height: 7px;
-  background-color: rgb(75, 74, 74);
+    height: 7px;
+    background-color: rgb(75, 74, 74);
 }
 
 .navbtn {
-  height: 32px;
-  width: 76px;
-  background-color: #e50914;
-  border: 0pc solid white;
-  border-radius: 4px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 32px;
+    width: 76px;
+    background-color: #e50914;
+    border: 0pc solid white;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .langbtn {
-  height: 32px;
-  width: 76px;
-  background-color: rgba(202, 197, 197, 0.575);
-  border: 0pc solid white;
-  border-radius: 4px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 32px;
+    width: 76px;
+    background-color: rgba(202, 197, 197, 0.575);
+    border: 0pc solid white;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .first {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 65vw;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
 }
 
 .first h2 {
-  font-size: 48px;
-  font-weight: 900;
-  color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
 }
 
 .first p {
-  font-size: 24px;
-  color: #ffffff;
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .secimg {
-  position: relative;
+    position: relative;
 }
 
 .secimg img {
-  position: relative;
-  z-index: 10;
+    position: relative;
+    z-index: 10;
 }
 
 .secimg video {
-  position: absolute;
-  right: 83px;
-  top: 95px;
-  width: 555px;
+    position: absolute;
+    right: 83px;
+    top: 95px;
+    width: 555px;
 }
-.second{
+
+.second {
     height: 70vh;
 }
 
-.second img{
+.second img {
     width: 580px;
     height: 435px;
 }
 
-.faq{
+.faq {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.faq h2{
+
+.faq h2 {
     padding-top: 40px;
     color: #ffffff;
     font-size: 48px;
     font-weight: 900;
 }
-.faq h3{
+
+.faq h3 {
     color: #ffffff;
     font-size: 20px;
     padding-top: 20px;
@@ -194,24 +197,24 @@ nav button {
 }
 
 
-.faqbox{
-     display: flex;
-     justify-content: space-between;
-     background-color: #414141;
-     padding: 24px;
-     color: #ffffff;
-     width: 60vw;
-     height: 25px;
-     margin: 10px auto;
-     font-size: 24px;
-     transition: all 1s ease-out;
-} 
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #414141;
+    padding: 24px;
+    color: #ffffff;
+    width: 60vw;
+    height: 25px;
+    margin: 10px auto;
+    font-size: 24px;
+    transition: all 1s ease-out;
+}
 
-.faqbox:hover{
+.faqbox:hover {
     background-color: #696969;
 }
 
-.faq div{
+.faq div {
     padding-bottom: 40px;
 }
 
@@ -220,36 +223,38 @@ nav button {
     grid-template-columns: repeat(4, 1fr);
     max-width: 60vw;
     margin: auto;
- 
+
 }
-footer div{
+
+footer div {
     max-width: 60vw;
     margin: auto;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
 
-.footer-text{
+.footer-text {
     color: #ffffff;
 }
 
-.selectlang select{
+.selectlang select {
     width: 126px;
     height: 32px;
     margin: 20px 0px;
     color: black;
 }
 
-.lasttext{
+.lasttext {
     color: #ffffff;
     font-size: 14px;
     margin-bottom: 70px;
@@ -258,7 +263,7 @@ footer a{
 
 @media screen and (max-width:1200px) {
 
-    .first{
+    .first {
         flex-wrap: wrap;
     }
 
@@ -267,10 +272,101 @@ footer a{
         grid-template-columns: repeat(2, 1fr);
         max-width: 60vw;
         margin: auto;
-     
+
     }
 
-    
-    
+
+
 }
 
+@media screen and (max-width: 500px) {
+
+    .herotext h1 {
+        font-size: 2rem;
+        font-weight: 700;
+
+    }
+
+    .secimg img {
+
+
+        width: 100%;
+    }
+
+    .secimg video {
+        width:80%;
+        position:absolute;
+        left: 40px;
+        top: 40px;
+
+    }
+
+    first h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .faq h2 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .secText h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .secText p{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+
+    .second img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .faq h3 {
+        
+        font-size: 1rem;
+        padding-top: 20px;
+        padding-left: 30px;
+    
+    }
+
+    .secText h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    nav{
+        display: block ;
+    }
+
+    .herotext p {
+        font-size: 1rem;
+        
+    }
+    .herotext h3 {
+        
+        font-size: 1rem;
+    }
+
+    .hero-email input {
+        height: 10px;
+        width: 70vw;
+        
+    }
+    
+    .hero-email button {
+        width: 30vw;
+        height: 8vh;
+        font-size: 1rem;
+        
+        
+    }
+    
+
+
+
+}
