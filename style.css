@@ -4,6 +4,9 @@
 }
 .main{
     background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
     height: 583.5px;
     position: relative;
 }
@@ -19,4 +22,11 @@
     height: 40px;
     width: 148px;
    
+}
+nav{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
