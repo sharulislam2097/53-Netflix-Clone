@@ -4,6 +4,10 @@
 *{  font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 0px;
+  
+}
+body{
+    background-color: black;
 }
 .main{
     
@@ -15,6 +19,7 @@
     background-size: max(1200px , 100vw);
     height: 583.5px;
     position: relative;
+    z-index: 50;
 }
 
 .nav-logo{
@@ -127,4 +132,42 @@ nav button{
     font-size: 14px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.first{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+}
+
+.first h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.first p{
+    font-size: 24px;
+    color: #ffffff;
+
+}
+.secimg{
+    position: relative;
+    
+}
+.secimg img{
+    position: relative;
+    z-index:10 ;
+  
+}
+
+.secimg video{
+    position: absolute;
+    right: 83px;
+    top: 95px;
+
+   
 }
