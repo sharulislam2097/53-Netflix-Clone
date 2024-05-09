@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    height: 583.5px;
+    position: relative;
+}
+.main .box{
+    height: 583.5px;
+    width: 100%;
+    opacity:0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.nav-logo{
+    height: 40px;
+    width: 148px;
+   
+}
