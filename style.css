@@ -163,6 +163,7 @@ nav button {
   position: absolute;
   right: 83px;
   top: 95px;
+  width: 555px;
 }
 .second{
     height: 70vh;
@@ -254,4 +255,22 @@ footer a{
     margin-bottom: 70px;
 }
 
+
+@media screen and (max-width:1200px) {
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 60vw;
+        margin: auto;
+     
+    }
+
+    
+    
+}
 
