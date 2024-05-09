@@ -261,7 +261,7 @@ footer a {
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width:501px) and (max-width:1200px) {
 
     .first {
         flex-wrap: wrap;
