@@ -185,6 +185,12 @@ nav button {
     font-size: 48px;
     font-weight: 900;
 }
+.faq h3{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
 
 
 .faqbox{
@@ -194,7 +200,7 @@ nav button {
      padding: 24px;
      color: #ffffff;
      width: 60vw;
-     height: 36px;
+     height: 25px;
      margin: 10px auto;
      font-size: 24px;
      transition: all 1s ease-out;
@@ -203,4 +209,49 @@ nav button {
 .faqbox:hover{
     background-color: #696969;
 }
+
+.faq div{
+    padding-bottom: 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 60vw;
+    margin: auto;
+ 
+}
+footer div{
+    max-width: 60vw;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer-text{
+    color: #ffffff;
+}
+
+.selectlang select{
+    width: 126px;
+    height: 32px;
+    margin: 20px 0px;
+    color: black;
+}
+
+.lasttext{
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+
 
